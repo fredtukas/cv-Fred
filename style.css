@@ -1,3 +1,15 @@
+
+body{
+    background-color: black;
+}
+
+
+ .container {
+        display: flex; /* or inline-flex */
+        flex-direction: row;
+      }
+
+
 .header-haut{
     background-color: gray;
     height:100px;
@@ -5,5 +17,65 @@
 
 .nav-haut{
     background-color: blueviolet;
+    height: 50px;
+}
+
+.section-gauche{
+    background-color: blue;
+    height: 600px;
+    width: 70%;
+}
+
+.header-gauche{
+    background-color: red;
+    height: 60px;
+    width: 100%;
+}
+
+.article-gauche{
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+
+.article-gauche-bas{
+background-color: rgb(95, 62, 126);
+height: 40%;
+width: 100%;
+}
+
+.foot-section-gauche{
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+}
+
+.section-droite{
+    background-color: chartreuse;
+    height: 600px;
+    width: 30%;
+}
+
+.header-droite{
+    background-color: crimson;
+    height: 60px;
+    width: 100%;
+}
+
+.nav-droite{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 50%;
+}
+
+.nav-droite-bas{
+    background-color: brown;
+    width: 100%;
+    height: 50%; 
+}
+
+.footer{
+    background-color: aliceblue;
+    width: 100%;
     height: 50px;
 }
